@@ -1,0 +1,373 @@
+// nav bar works!
+nav {
+    background-color: #1d0e15;
+
+}
+
+img {
+    width: 25%;
+}
+
+@media screen and (min-width:0px) and (max-width:991px) {
+    ul {
+        background-color: #1d0e15;
+        padding: 15px;
+    }
+
+    button:focus {
+        outline: none !important;
+    }
+
+    img {
+        width: 50%;
+    }
+
+}
+
+a,
+i {
+    transition: color 0.5s;
+
+    &:hover {
+        color: #ff5421 !important;
+        cursor: pointer;
+    }
+}
+
+
+nav {
+    img {
+        width: 25%;
+    }
+
+    background-color: #1d0e15;
+
+    a,
+    i {
+        transition: color 0.5s;
+
+        &:hover {
+            color: #ff5421 !important;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:991px) {
+    ul {
+        background-color: #1d0e15;
+        padding: 15px;
+    }
+
+    button:focus {
+        outline: none !important;
+    }
+
+    img {
+        width: 50%;
+    }
+
+}
+
+
+
+
+
+header {
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/banner-min.jpg);
+    
+    .imgAnimation {
+        width: 15%;
+        animation: rotate 4s infinite linear;
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .textStyle {
+        color: #ff5421;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+
+    .headTitle {
+        color: white;
+        font-size: 3rem;
+    }
+
+    .btnStyle {
+        background-color: #ff5421;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+        &:hover {
+            color: black;
+        }
+    }
+
+}
+
+.about {
+    background-color: #1d0e15;
+
+    .textStyle {
+        color: #ff5421;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+
+    .headTitle {
+        color: white;
+        font-size: 2rem;
+    }
+
+    li {
+        list-style-type: square;
+        color: #ff5421;
+
+    }
+}
+
+.counter {
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/counter-bg-min.jpg);
+
+    .special {
+        color: #ff5421;
+    }
+}
+
+
+.courses {
+    background-color: #1d0e15;
+
+    .smallText {
+        font-size: 1.3rem;
+        color: #ff5421;
+    }
+
+    .bigText {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .iconStyle {
+        color: #ff5421;
+    }
+
+    .headingStyle {
+        color: white;
+        text-align: start;
+        font-size: 1.2rem;
+
+        &:hover {
+            color: #ff5421;
+            cursor: pointer;
+        }
+    }
+
+    .imgAvater {
+        width: 30px;
+        height: 30px;
+    }
+
+    .content {
+        border: solid 1px #252525;
+        padding: 20px;
+        height: 250px;
+
+    }
+
+    .imageStyle {
+        transition: all 0.8s;
+    }
+
+    .box {
+        overflow: hidden;
+
+        &:hover {
+            .imageStyle {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .positionStyle {
+        right: 3%;
+        top: 3%;
+
+        .btnBg {
+            background-color: #ff5421;
+        }
+    }
+
+    .special {
+        color: #ff5421;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+.pages {
+    background-color: #1d0e15;
+
+    .bg4 {
+        background-color: #12090d;
+
+        .buttonPosiiton {
+            background-color: #ff5421;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            position: absolute;
+            top: 1px;
+            right: 13px;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+
+    .special {
+        color: #ff5421;
+        font-size: 1.5rem;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .btnStyle {
+        background-color: #ff5421;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+        &:hover {
+            color: black;
+        }
+    }
+
+
+
+    .w33 {
+        width: 30%;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+
+
+
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:800px) {
+ #imgNav 
+ {
+    width: 50%;
+ }
+    .right {
+        display: none;
+    }
+
+    header {
+        .textStyle {
+
+            font-size: 1.1rem;
+        }
+
+        .headTitle {
+            color: white;
+            font-size: 2rem;
+        }
+
+
+
+    }
+
+    .about {
+
+        .textStyle {
+
+            font-size: 1rem;
+        }
+
+        .headTitle {
+            font-size: 1.4rem;
+        }
+    }
+
+    .pages {
+
+        padding-block: 15px;
+
+        .special {
+            font-size: 1rem;
+        }
+
+        .heading {
+            font-size: 1.5rem;
+        }
+
+        .important {
+            font-size: 16px;
+        }
+
+
+
+
+
+
+    }
+
+}
+
+
+footer 
+{
+    background-image: url(../images/footer-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bg , .bg2 
+{
+    background-image: url(../images/footer-min.jpg);
+}
+
+.positionStyleUp 
+{
+    right: 20px;
+    bottom: 10%;
+    color: #ff5421;
+    font-size: 40px;
+}

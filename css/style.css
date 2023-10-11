@@ -1,0 +1,270 @@
+nav {
+  background-color: #1d0e15;
+}
+
+img {
+  width: 25%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  ul {
+    background-color: #1d0e15;
+    padding: 15px;
+  }
+  button:focus {
+    outline: none !important;
+  }
+  img {
+    width: 50%;
+  }
+}
+a,
+i {
+  transition: color 0.5s;
+}
+a:hover,
+i:hover {
+  color: #ff5421 !important;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #1d0e15;
+}
+nav img {
+  width: 25%;
+}
+nav a,
+nav i {
+  transition: color 0.5s;
+}
+nav a:hover,
+nav i:hover {
+  color: #ff5421 !important;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  ul {
+    background-color: #1d0e15;
+    padding: 15px;
+  }
+  button:focus {
+    outline: none !important;
+  }
+  img {
+    width: 50%;
+  }
+}
+header {
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/banner-min.jpg);
+}
+header .imgAnimation {
+  width: 15%;
+  animation: rotate 4s infinite linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+header .textStyle {
+  color: #ff5421;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+header .headTitle {
+  color: white;
+  font-size: 3rem;
+}
+header .btnStyle {
+  background-color: #ff5421;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+header .btnStyle:hover {
+  color: black;
+}
+
+.about {
+  background-color: #1d0e15;
+}
+.about .textStyle {
+  color: #ff5421;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.about .headTitle {
+  color: white;
+  font-size: 2rem;
+}
+.about li {
+  list-style-type: square;
+  color: #ff5421;
+}
+
+.counter {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/counter-bg-min.jpg);
+}
+.counter .special {
+  color: #ff5421;
+}
+
+.courses {
+  background-color: #1d0e15;
+}
+.courses .smallText {
+  font-size: 1.3rem;
+  color: #ff5421;
+}
+.courses .bigText {
+  font-size: 2rem;
+  color: white;
+}
+.courses .iconStyle {
+  color: #ff5421;
+}
+.courses .headingStyle {
+  color: white;
+  text-align: start;
+  font-size: 1.2rem;
+}
+.courses .headingStyle:hover {
+  color: #ff5421;
+  cursor: pointer;
+}
+.courses .imgAvater {
+  width: 30px;
+  height: 30px;
+}
+.courses .content {
+  border: solid 1px #252525;
+  padding: 20px;
+  height: 250px;
+}
+.courses .imageStyle {
+  transition: all 0.8s;
+}
+.courses .box {
+  overflow: hidden;
+}
+.courses .box:hover .imageStyle {
+  transform: scale(1.1);
+}
+.courses .positionStyle {
+  right: 3%;
+  top: 3%;
+}
+.courses .positionStyle .btnBg {
+  background-color: #ff5421;
+}
+.courses .special {
+  color: #ff5421;
+}
+.courses .special:hover {
+  cursor: pointer;
+}
+
+.pages {
+  background-color: #1d0e15;
+}
+.pages .bg4 {
+  background-color: #12090d;
+}
+.pages .bg4 .buttonPosiiton {
+  background-color: #ff5421;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 1px;
+  right: 13px;
+}
+.pages .bg4 .buttonPosiiton:hover {
+  color: black;
+}
+.pages .special {
+  color: #ff5421;
+  font-size: 1.5rem;
+}
+.pages .heading {
+  font-size: 2.5rem;
+}
+.pages .btnStyle {
+  background-color: #ff5421;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.pages .btnStyle:hover {
+  color: black;
+}
+.pages .w33 {
+  width: 30%;
+}
+.pages .w33:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  #imgNav {
+    width: 50%;
+  }
+  .right {
+    display: none;
+  }
+  header .textStyle {
+    font-size: 1.1rem;
+  }
+  header .headTitle {
+    color: white;
+    font-size: 2rem;
+  }
+  .about .textStyle {
+    font-size: 1rem;
+  }
+  .about .headTitle {
+    font-size: 1.4rem;
+  }
+  .pages {
+    padding-block: 15px;
+  }
+  .pages .special {
+    font-size: 1rem;
+  }
+  .pages .heading {
+    font-size: 1.5rem;
+  }
+  .pages .important {
+    font-size: 16px;
+  }
+}
+footer {
+  background-image: url(../images/footer-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg, .bg2 {
+  background-image: url(../images/footer-min.jpg);
+}
+
+.positionStyleUp {
+  right: 20px;
+  bottom: 10%;
+  color: #ff5421;
+  font-size: 40px;
+}/*# sourceMappingURL=style.css.map */
